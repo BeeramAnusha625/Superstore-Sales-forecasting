@@ -52,12 +52,19 @@ The evaluation metrics are based on the chronological train-test split used in t
 
 ## Dataset
 
-The project uses the Sample Superstore dataset containing approximately:
+The dataset used in this project is the Sample Superstore dataset obtained from Kaggle.
 
-- 9,994 records
-- 21 columns
+Dataset Source: https://www.kaggle.com/datasets/binib1997/superstore
 
-The dataset contains information related to orders, customers, products, sales, profit, regions, and categories.
+
+### Dataset Details
+
+- Records: 9,994
+- Columns: 21
+- Data Type: Structured tabular data
+- Domain: Retail Sales and Business Analytics
+
+The dataset contains information about orders, customers, products, sales, profit, regions, categories, and shipping details.
 
 ## Technologies Used
 
@@ -70,3 +77,68 @@ The dataset contains information related to orders, customers, products, sales, 
 - Streamlit
 - Jupyter Notebook
 - Git & GitHub
+
+## Project Structure Sample
+  Sample - Superstore.csv/
+│
+├── Anusha superstore.ipynb
+├── Sample - Superstore.csv
+├── superstore_cleaned.csv
+├── sales_forecast_model.pkl
+├── app.py
+├── requirements.txt
+├── Anusha_ProjectReport.docx
+└── README.md
+
+## How to Run the Project
+
+## 1. Open the project folder
+    Open Command Prompt or Terminal and navigate to the project folder:
+
+```bash
+cd "C:\Users\beera\OneDrive\Desktop\sales forecasting\Sample - Superstore.csv"
+ 
+ ## Dashboard
+
+The Streamlit dashboard provides interactive analysis of sales, profit, quantity, and orders.
+
+Users can filter the dashboard by:
+
+- Year
+- Region
+- Category
+
+The KPI values and charts update dynamically based on the selected filters.
+
+The dashboard includes:
+
+- Monthly Sales Trend
+- Sales by Category
+- Sales by Region
+- Top 10 Products by Sales
+- Profit by Category
+- Actual vs Predicted Sales Forecast
+
+## Project Outcome
+
+This project demonstrates practical skills in:
+
+- Data cleaning and preprocessing
+- Exploratory Data Analysis
+- Business KPI analysis
+- Data visualization
+- Feature engineering
+- Machine learning
+- Time-based sales forecasting
+- Model evaluation
+- Interactive dashboard development
+- Python-based data analytics
+  
+ ## Author
+
+Anusha Beeram
+
+B.Tech Computer Science and Engineering  
+Specialization: Artificial Intelligence and Machine Learning  
+Chaitanya Deemed to be University  
+Graduation Year: 2027 
