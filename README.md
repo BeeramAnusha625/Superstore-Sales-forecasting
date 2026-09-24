@@ -99,7 +99,7 @@ The dataset contains information about orders, customers, products, sales, profi
 cd "C:\Users\beera\OneDrive\Desktop\sales forecasting\Sample - Superstore.csv"
  
  ## Dashboard
-
+[open streamlit Dashboard](https://superstore-sales-forecasting-rjjbxsbrbub7vgaawk8smb.streamlit.app/)
 The Streamlit dashboard provides interactive analysis of sales, profit, quantity, and orders.
 
 Users can filter the dashboard by:
